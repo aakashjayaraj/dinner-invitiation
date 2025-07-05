@@ -55,7 +55,6 @@ main {
   100% { transform: translateY(-8px) scale(1.1);}
 }
 
-/* UPDATED HEADINGS */
 .main-heading {
   font-family: 'Playfair Display', serif;
   color: #c94f7c;
@@ -78,10 +77,11 @@ main {
   margin-top: 0.3em;
 }
 .thank-you.main-heading {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 700;
-  margin-top: 2em;
+  margin-top: 0.2em;
   margin-bottom: 0.7em;
+  letter-spacing: 0.02em;
 }
 
 .subtitle {
@@ -94,7 +94,7 @@ main {
 
 .divider {
   border-bottom: 1.7px dashed #d2a6b3;
-  margin: 1.2em 0 1.2em 0;
+  margin: 1.2em 0 0.6em 0;
 }
 
 .details {
