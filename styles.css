@@ -55,6 +55,14 @@ main {
   100% { transform: translateY(-8px) scale(1.1);}
 }
 
+.main-heading {
+  font-family: 'Playfair Display', serif;
+  color: #c94f7c;
+  /* Optional: size, weight, alignment */
+  font-weight: 700;
+  text-align: center;
+}
+
 h1 {
   font-family: 'Playfair Display', serif;
   color: #c94f7c;
