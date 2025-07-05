@@ -58,38 +58,33 @@ main {
 .main-heading {
   font-family: 'Playfair Display', serif;
   color: #c94f7c;
-  /* Optional: size, weight, alignment */
   text-align: center;
+  margin-bottom: 0.3em;
 }
 
-h1 {
-  font-family: 'Playfair Display', serif;
-  color: #c94f7c;
-  font-size: 2.2em;
-  margin-bottom: 0.2em;
-  letter-spacing: 0.02em;
+.invitation-card h3.main-heading {
+  font-size: 2rem;
   font-weight: 700;
-  text-shadow: 0 1px 8px #f7cac9aa;
+  margin-top: 1em;
 }
 
-h2 {
-  font-family: 'Playfair Display', serif;
-  color: #c94f7c;
-  font-size: 2.2em;
-  margin-bottom: 0.2em;
-  letter-spacing: 0.02em;
+.invitation-card h1.main-heading {
+  font-size: 3rem;
   font-weight: 700;
-  text-shadow: 0 1px 8px #f7cac9aa;
+  margin-top: 0.3em;
 }
 
-h3 {
-  font-family: 'Playfair Display', serif;
-  color: #c94f7c;
-  font-size: 2.2em;
-  margin-bottom: 0.2em;
-  letter-spacing: 0.02em;
+.invitation-card h2.main-heading {
+  font-size: 2.2rem;
   font-weight: 700;
-  text-shadow: 0 1px 8px #f7cac9aa;
+  margin-top: 0.3em;
+}
+
+.thank-you.main-heading {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.7em;
 }
 
 .subtitle {
